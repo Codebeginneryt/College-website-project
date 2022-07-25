@@ -1,0 +1,141 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+.navbar .logo{
+	color: black;
+	display: inline-flex;
+}
+.navbar .logo img{
+	border-radius: 50%;
+	margin: 10px;
+	height: 50px;
+	width: 50px;
+}
+.navbar .logo h2{
+	color: black;
+	margin:10px;
+	padding-top: 10px;
+	font-size: 24px;
+}
+.navbar .logo a{
+	color: black;
+	margin: 10px;
+	padding-top: 16px;
+	text-decoration: none;
+}
+.navbar .option{
+	display: inline-flex;
+	position: absolute;
+	left:82%;
+	top: 5%;
+}
+.navbar .option ul li{
+    display: inline-flex;
+  margin-left: 5px;
+}
+.navbar .option ul li a{
+	color: black;
+    text-decoration: none;
+}
+.navbar .option ul li button{
+	cursor: pointer;
+	height: 30px;
+	width: 100px;
+}
+.main{
+	background: rgba(0,0,0,0.7) url(bg.jpg);
+	background-size: cover;
+	background-blend-mode: darken;
+	height: 90vh;
+	width: 100%;
+	display: inline-flex;
+}
+.main .left{
+	margin-top: 120px;
+	margin-left: 50px;
+	width: 50%;
+	color: white;
+}
+.main .left p{
+	font-size: 22px;
+}
+.main .left h1{
+	text-decoration: 3px underline;
+}
+.main .left button{
+	margin-top: 20px;
+	width: 200px;
+	height: 30px;
+	font-size: 18px;
+	border:2px solid white;
+	transition: 0.4s;
+	border-radius: 15px;
+}
+.main .left button:hover{
+	background: transparent;
+	color: white;
+}
+.main .right{
+	margin-left: 100px;
+	width: 50%;
+}
+.container{
+	margin-top: 70px;
+	height: auto;
+	border-radius: 5px;
+}
+.label{
+	padding: 20px 90px;
+	font-size: 35px;
+	font-weight: bold;
+	color: white;
+}
+.form-login{
+	padding: 20px 40px;
+}
+.form-login .font{
+	font-size: 18px;
+	color: white;
+	margin: 5px 0;
+}
+.form-login input{
+	height: 35px;
+	width: 350px;
+	padding: 0 5px;
+	outline: none;
+	border: 1px solid silver;
+	font-size: 18px;
+}
+.form-login .font2{
+	margin-top: 30px;
+}
+.form-login button{
+	margin: 45px 0 30px 0;
+	height: 35px;
+	width: 350px;
+	font-size: 20px;
+	color: white;
+	background: #1a237e;
+	outline: none;
+	font-weight: bold;
+	border-radius: 3px;
+	border:none;
+	cursor: pointer;
+	transition: .5s;
+}
+.form-login button:hover{
+	color:  #1a237e;
+	background: white;
+	border: 1px solid #1a237e;
+}
+.form-login #username-error, .form-login #pass-error{
+	margin-top: 5px;
+	width: 345px;
+	font-size: 18px;
+	color: #c62828;
+	background: rgba(255,0,0,0.1);
+	display: none;
+}
